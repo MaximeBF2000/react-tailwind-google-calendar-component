@@ -39,7 +39,6 @@ export const Calendar = () => {
       className="w-full h-full overflow-auto bg-white"
       ref={calendarContentRef as any}
     >
-      {JSON.stringify({ events }, null, 2)}
       <div className="flex sticky top-0 bg-white">
         <div className="w-[100px] border" />
         <header className="w-full flex flex-1">
